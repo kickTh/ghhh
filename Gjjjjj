@@ -1,0 +1,8 @@
+local Player = "" -- ชื่อคนที่เราจะวาปไปหา(@ชื่อจริงนะ)
+
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Player].Character.HumanoidRootPart.CFrame
+--เพิ่มเติมถ้าเราจะวาปไปหลังหรือวาปไปหน้าหรืออื่นๆ
+--game.Players[Player].Character.HumanoidRootPart.CFrame × CFrame.new(0,0,0)
+--เพิ่มเติมถ้าเราจะวาปไปหลังหรือวาปไปหน้าหรืออื่นๆ สุ่มค่าเอา × CFrame.new(0,0,0)
+--CFrame.new(0,0,5) วาปเข้าหลัง
